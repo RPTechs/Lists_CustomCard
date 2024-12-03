@@ -24,9 +24,9 @@ const Extension = ({ context, runServerless, sendAlert }) => {
   return (
     <>
       <List variant="inline-divided">
-  <Link href="www.hubspot.com">HubSpot Link</Link>
-  <Link href="www.developers.hubspot.com">HubSpot Developer</Link>
-  <Link href="www.knowledge.hubspot.com">HubSpot Knowledge Base</Link>
+  <Link href="https://www.hubspot.com/">HubSpot Link</Link>
+  <Link href="https://developers.hubspot.com/beta-docs/">HubSpot Developer</Link>
+  <Link href="https://knowledge.hubspot.com/">HubSpot Knowledge Base</Link>
 </List>
     </>
   );
