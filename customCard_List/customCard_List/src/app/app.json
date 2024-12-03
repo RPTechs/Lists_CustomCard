@@ -1,0 +1,16 @@
+{
+  "name": "Lists Card",
+  "description": "The Multi-Link Viewer custom card allows users to conveniently display and access multiple hyperlinks directly within a HubSpot record, streamlining navigation and providing quick access to related resources.",
+  "uid": "get_started_app",
+  "scopes": ["crm.objects.contacts.read", "crm.objects.contacts.write"],
+  "public": false,
+  "extensions": {
+    "crm": {
+      "cards": [
+        {
+          "file": "extensions/list-card.json"
+        }
+      ]
+    }
+  }
+}
